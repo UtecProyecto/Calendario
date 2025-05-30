@@ -1,0 +1,59 @@
+/* Estilos específicos para la página de calendario */
+
+/* Calendario */
+#calendar {
+    min-height: 600px;
+}
+
+/* Eventos del calendario */
+.fc-event {
+    cursor: pointer;
+    font-size: 0.85em;
+    padding: 2px 4px;
+    border: none;
+}
+
+.fc-event-iva {
+    background-color: #dc3545;
+}
+
+.fc-event-renta {
+    background-color: #fd7e14;
+}
+
+.fc-event-iss {
+    background-color: #20c997;
+}
+
+.fc-event-afp {
+    background-color: #6f42c1;
+}
+
+.fc-event-cierre {
+    background-color: #17a2b8;
+}
+
+.fc-event-auditoria {
+    background-color: #343a40;
+}
+
+.fc-event-otro {
+    background-color: #6c757d;
+}
+
+/* Lista de recordatorios */
+#lista-recordatorios .list-group-item {
+    transition: all 0.3s ease;
+}
+
+#lista-recordatorios .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsividad */
+@media (max-width: 992px) {
+    #calendar {
+        min-height: 400px;
+        margin-bottom: 20px;
+    }
+}

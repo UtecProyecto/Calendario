@@ -1,0 +1,38 @@
+/* Estilos específicos para la página de contactos */
+
+/* Formulario */
+#form-contacto {
+    padding: 15px;
+}
+
+/* Tabla de contactos */
+#lista-contactos tr {
+    transition: all 0.3s ease;
+}
+
+#lista-contactos tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Botones de acción */
+.edit-btn, .delete-btn {
+    transition: all 0.2s ease;
+}
+
+.edit-btn:hover {
+    color: white !important;
+    background-color: #0d6efd;
+}
+
+.delete-btn:hover {
+    color: white !important;
+    background-color: #dc3545;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #lista-contactos td:nth-child(3),
+    #lista-contactos th:nth-child(3) {
+        display: none;
+    }
+}

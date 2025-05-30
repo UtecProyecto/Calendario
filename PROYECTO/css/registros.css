@@ -1,0 +1,32 @@
+/* Estilos específicos para la página de registros */
+
+/* Resumen */
+#resumen-container .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla de registros */
+#lista-registros tr {
+    transition: all 0.3s ease;
+}
+
+#lista-registros tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Formulario */
+#form-registro {
+    padding: 15px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #resumen-container .card-body {
+        padding: 1rem;
+    }
+    
+    #resumen-container .card-text {
+        font-size: 1.2rem;
+    }
+}
